@@ -1,0 +1,30 @@
+@import "colors.css";
+
+#workspaces {
+  padding: 4px 8px;
+  background: @background;
+  border-radius: 999px;
+  transition: all 150ms ease;
+}
+
+#workspaces button {
+  all: unset;
+  min-width: 20px;
+  min-height: 18px;
+  margin: 0 2px;
+  border-radius: 999px;
+  background: @workspace;
+  color: transparent;
+  transition: all 150ms ease;
+}
+
+#workspaces button:hover {
+  background: @workspace-hover;
+  min-width: 30px;
+}
+
+#workspaces button.active {
+  min-width: 50px;
+  color: #ffffff;
+  background: @workspace-active;
+}
