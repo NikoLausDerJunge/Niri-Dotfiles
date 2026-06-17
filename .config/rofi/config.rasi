@@ -1,6 +1,6 @@
 configuration {
-    display-drun: "Applications"; // Input Box Text
-    font: "JetBrains Mono 11"; 
+    display-drun: " ";
+    font: "Iosevka Term 11";
     show-icons: true; // Icons Enabled
     drun-display-format: "{name}"; // For Only Namev
 }
@@ -20,7 +20,7 @@ entry {
     active-foreground:           rgba(128, 203, 196, 1.0);
     selected-active-foreground:  rgba(128, 203, 196, 1.0);
 
-    selected-normal-background:  rgba(57, 66, 73, 0.8);
+    selected-normal-background:  rgba(128, 127, 127, 0.27);
     selected-urgent-background:  rgba(57, 66, 73, 0.8);
 
     spacing:                     0;
@@ -29,12 +29,17 @@ entry {
 
 window {
     width: 500px;
-    height: 600px;
+    height: 450px;
     transparency: "real"; // For Real transparency
-    background-color: rgba(39, 50, 56, 0.30);
-    border: 0; // No Border
+    background-color: rgba(33, 33, 33, 0.39);
+    border-color: rgba(142, 142, 142, 0.39);
+    border: 2; // No Border
     padding: 15;
     border-radius: 15px;
+
+    location: north;
+    anchor: north;
+    y-offset: 11px;
 }
 
 mainbox {
@@ -46,6 +51,9 @@ textbox {
     text-color: @foreground;
 }
 
+prompt {
+    vertical-align: 2;
+}
 
 listview {
     lines: 10;
@@ -135,7 +143,7 @@ inputbar {
 
 textbox-prompt-colon {
     expand: false;
-    str: ":";
+    str: "";
     margin: 0px 0.3em 0em 0em;
     text-color: @normal-foreground;
 }
