@@ -1,0 +1,8 @@
+// ────────────── Startup Applications ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
+
+    spawn-sh-at-startup "waybar" // Bar
+    spawn-sh-at-startup "swaybg -i ~/Pictures/Wallpapers/wallhaven_zxeg7w.jpg -m fill" // Background Manager
+    spawn-sh-at-startup "swaync" // Notifications
+    spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store" // Clipboard
+    spawn-at-startup "cliphist" "wipe"
