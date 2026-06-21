@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Bearded Theme Oceanic Reversed",
+    "workbench.colorTheme": "Bearded Theme HC Ebony",
     "workbench.activityBar.location": "hidden",
     "workbench.editor.showTabs": "single",
     "workbench.statusBar.visible": false,
@@ -11,7 +11,7 @@
     "material-icon-theme.hidesExplorerArrows": true,
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "none",
-    "workbench.tree.indent": 8,
+    "workbench.tree.indent": 15,
     "explorer.compactFolders": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -23,5 +23,12 @@
     "window.menuBarVisibility": "hidden",
     "editor.padding.bottom": 20,
     "editor.padding.top": 20,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "chat.agent.enabled": false,
+    "workbench.editor.labelFormat": "short",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showIcons": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "chat.viewSessions.enabled": false,
+    "chat.contextUsage.enabled": false
 }
