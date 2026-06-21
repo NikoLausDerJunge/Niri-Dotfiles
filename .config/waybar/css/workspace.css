@@ -1,0 +1,26 @@
+@import "colors.css";
+
+#workspaces {
+  padding: 7px 10px;
+  background: @background;
+  transition: all 150ms ease;
+}
+
+#workspaces button {
+  all: unset;
+  min-width: 15px;
+  min-height: 15px;
+  margin: 0 3px;
+  border-radius: 999px;
+  background: @workspace;
+  color: transparent;
+  transition: all 150ms ease;
+}
+
+#workspaces button:hover {
+  background: @workspace-hover;
+}
+
+#workspaces button.active {
+  background: rgba(255, 255, 255, 0.424);
+}
