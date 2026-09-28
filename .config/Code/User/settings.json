@@ -22,7 +22,7 @@
   "window.menuBarVisibility": "hidden",
   "editor.padding.bottom": 20,
   "editor.padding.top": 20,
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "on",
   "chat.agent.enabled": false,
   "workbench.editor.labelFormat": "short",
   "breadcrumbs.enabled": false,
@@ -48,6 +48,26 @@
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "explorer.openEditors.visible": 1,
-  "explorer.autoReveal": true
+  "explorer.autoReveal": true,
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/07m/AppData/Roaming/Code/User/test.css"
+  ],
+  "workbench.colorCustomizations": {
+    "editor.background": "#161616",
+    "sideBar.background": "#161616",
+    "activityBar.background": "#161616",
+    "panel.background": "#161616",
+    "terminal.background": "#161616",
+    "editorGroup.emptyBackground": "#161616",
+    "editorGroupHeader.tabsBackground": "#161616",
+    "titleBar.activeBackground": "#161616",
+    "titleBar.inactiveBackground": "#161616",
+    "statusBar.background": "#161616",
+    "statusBar.noFolderBackground": "#161616",
+    "sideBarSectionHeader.background": "#161616",
+    "editorWidget.background": "#161616",
+    "quickInput.background": "#161616"
+  }
 }
