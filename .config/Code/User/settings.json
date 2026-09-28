@@ -52,7 +52,7 @@
   "explorer.openEditors.visible": 1,
   "explorer.autoReveal": true,
   "vscode_custom_css.imports": [
-    "file:///C:/Users/07m/AppData/Roaming/Code/User/test.css"
+    "file:///C:/Users/YOURNAME/AppData/Roaming/Code/User/test.css"
   ],
   "workbench.colorCustomizations": {
     "editor.background": "#161616",
