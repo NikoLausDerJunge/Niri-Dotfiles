@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Bearded Theme HC Ebony",
+    "workbench.colorTheme": "Dark Horizon",
     "workbench.activityBar.location": "hidden",
     "workbench.editor.showTabs": "single",
     "workbench.statusBar.visible": false,
@@ -30,5 +30,8 @@
     "workbench.editor.showIcons": false,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "chat.viewSessions.enabled": false,
-    "chat.contextUsage.enabled": false
+    "chat.contextUsage.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "workbench.welcomePage.experimentalOnboarding": false,
+    "chat.welcomePage.signIn.enabled": false
 }
