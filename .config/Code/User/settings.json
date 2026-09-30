@@ -1,16 +1,15 @@
 {
 // Workbench
   "workbench.activityBar.location": "hidden",
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "single",
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Mokka",
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 15,
+  "workbench.tree.indent": 28,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showIcons": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
@@ -32,7 +31,7 @@
   "git.decorations.enabled": false,
 
 // Window
-  "window.zoomLevel": 1.5,
+  "window.zoomLevel": 3,
   "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "native",
   "window.menuBarVisibility": "hidden",
@@ -55,7 +54,7 @@
   "editor.cursorWidth": 4,
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
-  "editor.fontWeight": "550",
+  "editor.fontWeight": "450",
   "editor.lineHeight": 1.7,
   "editor.padding.bottom": 20,
   "editor.padding.top": 20,
@@ -64,6 +63,8 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.vertical": "hidden",
+  // Lines between Spaces
+  "editor.guides.indentation": false,
 
 // Terminal
   "terminal.integrated.smoothScrolling": true,
@@ -83,20 +84,19 @@
 
 // Workbench Color Customizations
   "workbench.colorCustomizations": {
-    "editor.background": "#161616",
-    "sideBar.background": "#161616",
-    "activityBar.background": "#161616",
-    "panel.background": "#161616",
-    "terminal.background": "#161616",
-    "editorGroup.emptyBackground": "#161616",
-    "editorGroupHeader.tabsBackground": "#161616",
-    "titleBar.activeBackground": "#161616",
-    "titleBar.inactiveBackground": "#161616",
-    "statusBar.background": "#161616",
-    "statusBar.noFolderBackground": "#161616",
-    "sideBarSectionHeader.background": "#161616",
-    "editorWidget.background": "#161616",
-    "quickInput.background": "#161616",
-    "scrollbar.background": "#161616",
-  }
+    "quickInput.background": "#181818CC",
+    "quickInput.foreground": "#C8C8C8",
+
+    "quickInputList.focusBackground": "#FFFFFF0D",
+    "quickInputList.focusHighlightForeground": "#FFFFFF",
+
+    "quickInputTitle.background": "#FFFFFF08",
+    "quickInputList.focusIconForeground": "#777777",
+
+    "input.background": "#FFFFFF08",
+    "input.border": "#FFFFFF12",
+
+    "scrollbar.background": "#FFFFFF05"
+  },
+  "workbench.colorTheme": "Bearded Theme HC Ebony"
 }
