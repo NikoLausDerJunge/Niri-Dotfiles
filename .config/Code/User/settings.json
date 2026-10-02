@@ -9,7 +9,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 28,
+  "workbench.tree.indent": 25,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showIcons": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
@@ -18,6 +18,9 @@
 
 // Hides Explorer Arrow
   "material-icon-theme.hidesExplorerArrows": true,
+
+// Updates
+  "update.showReleaseNotes": false,
 
 // Explorer
   "explorer.compactFolders": false,
@@ -69,9 +72,10 @@
 // Terminal
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font, Consolas, 'Courier New', monospace",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 11,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.fontWeight": "380",
+  "terminal.integrated.mouseWheelZoom": true,
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.suggest.enabled": true,
@@ -84,19 +88,15 @@
 
 // Workbench Color Customizations
   "workbench.colorCustomizations": {
-    "quickInput.background": "#181818CC",
-    "quickInput.foreground": "#C8C8C8",
-
-    "quickInputList.focusBackground": "#FFFFFF0D",
+    "quickInput.background": "#202028E6",
+    "quickInput.foreground": "#D4D4DC",
+    "quickInputList.focusBackground": "#30303A",
     "quickInputList.focusHighlightForeground": "#FFFFFF",
-
-    "quickInputTitle.background": "#FFFFFF08",
-    "quickInputList.focusIconForeground": "#777777",
-
-    "input.background": "#FFFFFF08",
-    "input.border": "#FFFFFF12",
-
-    "scrollbar.background": "#FFFFFF05"
+    "quickInputTitle.background": "#282830",
+    "quickInputList.focusIconForeground": "#92929E",
+    "input.background": "#282830",
+    "input.border": "#3A3A44",
+    "scrollbar.background": "#25252D"
   },
   "workbench.colorTheme": "Bearded Theme HC Ebony"
 }
